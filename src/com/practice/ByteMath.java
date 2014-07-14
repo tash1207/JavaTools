@@ -2,13 +2,6 @@ package com.practice;
 
 public class ByteMath {
 
-	public static void main(String[] args) {
-		System.out.println("15 + 3 = " + add(15, 3));
-		System.out.println("-5 + 7 = " + add(-5, 7));
-		System.out.println("15 * 3 = " + multiply(15, 3));
-		System.out.println("15 / 3 = " + divide(15, 3));
-	}
-
 	public static int divide(int numerator, int denominator) {
 		if (numerator < 0 || denominator < 0) {
 			throw new IllegalArgumentException("Positive numbers only");
