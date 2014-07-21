@@ -1,5 +1,6 @@
 Java Tools and Best Practices
 =========
+![](https://travis-ci.org/tash1207/JavaTools.svg?branch=master)
 
 My Independent Study project on Java best practices and available tools
 
